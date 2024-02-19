@@ -13,13 +13,18 @@
 <p>При запросе приложения на React браузером будет получен ответ в виде HTML документа:</p>
 <pre>
   <code>
-  <html>
-    <head> ... </head>
-    <body>
-      <div id="root"></div>
-      <script src="/app.js"></script>
-    </body>
-  </html>
-</code>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <title>React App</title>
+      </head>
+      <body>
+        <div id="root"></div>
+        <script src="/app.js"></script>
+      </body>
+    </html>
+  </code>
 </pre>
 
