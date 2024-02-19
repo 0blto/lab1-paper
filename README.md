@@ -15,4 +15,8 @@
 '<div id='root'></div>'
 <script src="/app.js"></script>
 </pre>
-
+```
+<div>
+  <p>Пример HTML</p>
+</div>
+\```
