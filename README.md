@@ -15,3 +15,6 @@
 <div id='root'></div>
 <script src="/app.js"></script>
 </pre>
+&lt;div&gt;
+  &lt;p&gt;Пример HTML&lt;/p&gt;
+&lt;/div&gt;
