@@ -12,9 +12,7 @@
 
 <p>При запросе приложения на React браузером будет получен ответ в виде небольшого HTML документа содержащего внутри body:</p>
 <pre lang="html">
-<div id='root'></div>
+&lt;div id="root"&gt;&lt;/div&gt;
 <script src="/app.js"></script>
 </pre>
-&lt;div&gt;
-  &lt;p&gt;Пример HTML&lt;/p&gt;
-&lt;/div&gt;
+
