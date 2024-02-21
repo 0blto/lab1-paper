@@ -45,7 +45,6 @@
 
 <p>Так происходит потому что страницы генерируются на клиенте. Все что необходимо браузеру - HTML страница с выделенным блоком для подстановки контента и скрипт, который его рендерит. Это значит, что все страницы будут содержаться в нем (для нашего примера это app.js).</p>
 
-![CSR vs SSR](./Server-side-rendering-benefits-node-js/ssr_csr.png)
 <p align="center">
   <img src="./Server-side-rendering-benefits-node-js/ssr_csr.png" alt="CSR vs SSR" width="70%" />
 </p>
