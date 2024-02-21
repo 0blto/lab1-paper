@@ -166,20 +166,20 @@ export default HomePage;
 <p>Страницы в проекте также находятся в отдельной папке в качестве vue файлов. Чтобы создать страницу доступную по стандартному URL создается файл index.vue.</p>
 
 <pre lang="vue">
-<template>
-  <div>
-    <h1>Hello, world!</h1>
-    <p>This is a server-rendered page.</p>
-  </div>
-</template>
+&lt;template&gt;
+  &lt;div&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;p&gt;This is a server-rendered page.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
 
-<script>
+&lt;script&gt;
 export default {
   // Дополнительная логика компонента
 }
-</script>
+&lt;/script&gt;
 
-<style>
+&lt;style&gt;
 /* Стили для компонента */
-</style>
+&lt;/style&gt;
 </pre>
