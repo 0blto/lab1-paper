@@ -31,7 +31,7 @@
 <pre lang="html">
 &lt;html&gt;
   &lt;head&gt;
-    <!----- Some meta tags ----->
+    &lt;!----- Some meta tags -----&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div id="root"&gt;&lt;/div&gt;
