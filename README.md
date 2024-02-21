@@ -175,7 +175,12 @@ export default HomePage;
 
 &lt;script&gt;
 export default {
-  // Дополнительная логика компонента
+  async asyncData({ params, error }) {
+    // Логика для получения данных с сервера
+    const data = 'Some data from server';
+
+    return { data };
+  }
 }
 &lt;/script&gt;
 
