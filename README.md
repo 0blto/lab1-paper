@@ -114,7 +114,33 @@ __Итак, получается преимущество в:__
 
 <pre>npx create-next-app@latest</pre>
 
-<p>Все страницы хранятся в отдельной папке и навигация по сайту происходит по тем же адресам, по которым страницы распологаются в файловой системе относительно папки со страницами.</p>
+<p>Страницы в проекте находятся в отдельной папке в виде js файлов. Чтобы создать страницу доступную по стандартному URL создается файл Index.js.</p>
+
+<pre lang="js">
+  import React from 'react';
+
+function HomePage({ data }) {
+  return (
+    <div>
+      <h1>Hello, SSR in Next.js!</h1>
+      <p>Data from server: {data}</p>
+    </div>
+  );
+}
+
+export async function getServerSideProps() {
+  // Логика для получения данных с сервера
+  const data = 'Some data from server';
+  
+  return {
+    props: { data }
+  };
+}
+
+export default HomePage;
+</pre>
+
+<p>Навигация по страницам происходит по тем же адресам, по которым они распологаются в файловой системе относительно папки со страницами.</p>
 
 <p align="center">
   <img src="./Server-side-rendering-benefits-node-js/next-routing.png" alt="CSR vs SSR" width="70%" />
