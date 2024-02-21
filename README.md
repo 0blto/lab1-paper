@@ -29,9 +29,9 @@
 ### <a name="seo">Повышение доступности и SEO оптимизация</a>
 <p>При запросе приложения на React браузером будет получен ответ в виде небольшого HTML документа вида:</p>
 <pre lang="html">
-&lt;html lang="en"&gt;
+&lt;html&gt;
   &lt;head&gt;
-    Some meta tags
+    <!----- Some meta tags ----->
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div id="root"&gt;&lt;/div&gt;
